@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<link rel="stylesheet" href="IndexStyle.css">
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<script src="Scripts.js"></script>
+</head>
+<body>
+	<div id="page1">
+  <div class="form-container">
+    <h1>
+      
+    Contact Form</h1>
+	  <form id="contact-form">
+    
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="zip">Zip Code:</label>
+      <input type="text" id="zip" name="zip" required>
+
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+ 
+    </form>
+  </div>
+		</div>
+	
+ <div id="page2" style="display: none;">
+    <h2>Thank you for your submission!</h2>
+    <p id="submitted-info"></p>
+  </div>
+	
+	<h2><a href="HomePage.html"> Home Page</a></h2>
+	<div class="footer">
+      Robots Rock!
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+/* CSS Document */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center; background: #49969A; margin-left: 100px; margin-right: 100px;
+}
+
+h1 {
+  color: Red; text-align: center; background: blue;
+}
+h2 {color: Purple;text-align: center;}
+
+.robot-container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; background: #4B7371;
+}
+
+
+.robot-card {
+  width: 900px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.robot-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.robot-name {
+  font-size: 20px;
+  margin-top: 10px; color: red;
+}
+
+.robot-price {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.robot-description {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  animation: flashing 1s linear infinite;	
+}
+
+@keyframes flashing {
+  0% { background-color: black; } 
+  50% { background-color: red; } 
+  100% { background-color: Black; } 
+}
+
+.form-container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.form-container h2 {
+  color: #333;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 11px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+
+.robot-container {
+  position: relative;
+  display: inline-block;
+}
+
+.robot-name {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.robot-name:hover {
+  transform: scale(1.1);
+}
+
+img {
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.Contactus-container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; background: #4B7371;
+}
+.contactus-card {
+  width: 900px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
